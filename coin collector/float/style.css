@@ -1,0 +1,27 @@
+#coin{
+    border: 5px solid aqua;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px ;
+    color: rgb(123, 210, 230);
+    text-align: center;
+    margin: 250px auto;
+    line-height: 49px;
+    user-select: none;
+    cursor: pointer;
+}
+body{
+    background-color: navy;
+    margin: auto;
+    text-align: center;
+}
+.float{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 250px;
+    margin: auto ;
+    font-size: 50px;
+    color: blue;
+    user-select: none;
+}

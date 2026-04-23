@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#canvas{
+    border-radius: 30px;
+    border: 1px solid greenyellow;
+}
+#score{
+    position: fixed;
+}
+#shop{
+    border:10px solid greenyellow;
+    background-image: url("shop.png");
+    width: 402px;
+    height: 256px;
+    /*border-radius: 10px;
+    background-color: red;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    background-size: contain;*/ }
+#shop{
+    border: 1px solid black;
+    width: 402px;
+    height: 256px;
+    background: url("shop.png");
+    position: relative;
+}
+.item{
+    position: absolute;
+    border: 2px dashed gray;
+    width: 51px;
+    height: 51px;
+    text-align: center;
+    line-height: 51px;
+}
+#item1{
+    left: 80px;
+    top: 99px;
+    
+}
+#price1{
+    position: absolute;
+    left: 93px;
+    top: 143px;
+    background-color: azure;
+    width: 30px;
+    text-align: center;
+}
+#item2{
+    left: 143px;
+    top: 99px;
+}
+#price2{
+    position: absolute;
+    left: 154px;
+    top: 143px;
+    background-color: azure;
+    width: 30px;
+    text-align: center;
+}
+#item3{
+    left: 204px;
+    top: 99px;
+}
+#item4{
+    left: 269px;
+    top: 99px;
+}
+#sunglasses{
+    height: 75px;
+}
